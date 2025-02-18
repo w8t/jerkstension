@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Jerkstension",
+    "version": "1.0",
+    "description": "For those who need a competitive edge and help edging.",
+    "icons": {
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    },
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": ["https://jerkmate.com/jerkmate-ranked/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://jerkmate.com/jerkmate-ranked/*"],
+        "js": ["scripts/edge.js"],
+        "css": ["styles/edge.css"],
+        "run_at": "document_idle"
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons/48.png"
+    }
+  }

@@ -1,0 +1,38 @@
+button.autoEdge {
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #fb4d94;
+    color: white;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button.autoEdge:hover, button.buttonBuy:hover {
+    background-color: #d93e7e;
+}
+
+button.autoEdge.autoGoon {
+    position: absolute;
+    bottom: 10px;
+    left: 200.76px;
+    min-width: 100px;
+    height: 42px;
+    padding: 6px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #692ce0;
+    gap: 0.5rem;
+    margin-left: initial;
+}
+
+button.autoEdge.autoGoon:hover {
+    background-color: #5a20c7;
+}
