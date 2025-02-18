@@ -15,9 +15,10 @@ AutoJerk with Jerkstension and **maximize** your strokes per second.
 3. Open **Chrome** and navigate to `chrome://extensions/`
 4. Enable **Developer Mode** (toggle in the top-right corner)
 5. Click **"Load Unpacked"** and select the __unzipped__ `jerkstension` folder
+- If you are using OperaGX, make sure `Allow access to search page results` is enabled (right below `Allow in Incognito`).
 6. The extension is now installed and ready to use!
 
-## 🎮 How to Use
+## How to Use
 1. Visit **[Jerkmate Ranked](https://jerkmate.com/jerkmate-ranked)**
 2. Open the **Jerkstension popup** by clicking the extension icon
 3. Set your **click delays** for:
